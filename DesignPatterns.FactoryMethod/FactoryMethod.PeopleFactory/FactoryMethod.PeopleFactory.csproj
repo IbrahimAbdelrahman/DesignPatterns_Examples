@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FactoryMethod.PersonRepository.CSV\FactoryMethod.PersonRepository.CSV.csproj" />
+    <ProjectReference Include="..\FactoryMethod.PersonRepository.Interface\FactoryMethod.PersonRepository.Interface.csproj" />
+    <ProjectReference Include="..\FactoryMethod.PersonRepository.Service\FactoryMethod.PersonRepository.Service.csproj" />
+    <ProjectReference Include="..\FactoryMethod.PersonRepository.SQL\FactoryMethod.PersonRepository.SQL.csproj" />
+  </ItemGroup>
+
+</Project>
